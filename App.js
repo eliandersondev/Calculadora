@@ -52,7 +52,7 @@ export default function App() {
         calculator()
         return
       case '+/-':
-        setCurrentNumber(parseFloat(currentNumber) * -1)
+        setCurrentNumber(parseFloat(currentNumber) * (-1))
         return
     }
 
